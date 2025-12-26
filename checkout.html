@@ -39,7 +39,7 @@
     <textarea name="address" required></textarea><br>
 
     <input type="hidden" name="orderDetails" id="orderDetails">
-    <input type="hidden" name="_redirect" value="https://cxlshare.github.io/vedicahar/success.html">
+    <input type="hidden" name="_redirect" value="https://cxlshare.github.io/ayurafoods/success.html">
 
     <button type="submit">Place Order</button>
 </form>
@@ -81,10 +81,11 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("checkoutForm").addEventListener("submit", function() {
         const phone = document.querySelector('input[name="contact"]').value;
         document.getElementById("redirectInput").value =
-            `https://cxlshare.github.io/vedicahar/success.html?orderId=${orderID}&phone=${encodeURIComponent(phone)}`;
+            `https://cxlshare.github.io/ayurafoods/success.html?orderId=${orderID}&phone=${encodeURIComponent(phone)}`;
     });
 });
 </script>
 
 </body>
 </html>
+
