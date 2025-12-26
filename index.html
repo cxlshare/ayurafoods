@@ -103,6 +103,31 @@
       background: #b58434;
       color: white;
     }
+    .social-icons {
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 28px;
+  margin: 0 8px;
+  vertical-align: middle;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.15);
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.whatsapp-float img {
+  width: 55px;
+}
+
   </style>
 </head>
 <body>
@@ -164,24 +189,24 @@
 
   <footer>
     <div class="social-icons">
-  <a href="https://www.instagram.com/ayurafoods/" target="_blank" aria-label="Instagram">
+  <a href="https://www.instagram.com/ayurafoods/" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
   </a>
-
-  <a href="https://www.facebook.com/ayurafoods/" target="_blank" aria-label="Facebook">
+  <a href="https://www.facebook.com/ayurafoods/" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
   </a>
-
-  <a href="https://wa.me/918125006716" target="_blank" aria-label="WhatsApp">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-  </a>
 </div>
-
     <p>&copy; 2025 AYURA FOODS. All rights reserved.</p>
   </footer>
+<a href="https://wa.me/918125006716?text=Hello%20Ayura%20Foods,%20I%20want%20to%20order%20cold%20pressed%20oil"
+   class="whatsapp-float"
+   target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+</a>
 
 </body>
 </html>
+
 
 
 
