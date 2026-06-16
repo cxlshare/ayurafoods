@@ -39,7 +39,7 @@
     <textarea name="address" required></textarea><br>
 
     <input type="hidden" name="orderDetails" id="orderDetails">
-    <input type="hidden" name="_redirect" value="https://www.ayurafoods.in/success.html">
+    <input type="hidden" name="_redirect" value="https://https://www.ayurafoods.in/success.html">
 
     <button type="submit">Place Order</button>
 </form>
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let orderDetailsText = "";
 
     const productData = {
-        coconut: { name: "", img: "coconut-oil.jpg" },
+        coconut: { name: "Coconut Oil", img: "coconut-oil.jpg" },
         nuvvulu: { name: "Nuvvulu Oil", img: "nuvvulu-oil.jpg" },
         palli: { name: "Palli Oil", img: "palli-oil.jpg" },
         sunflower: { name: "Sunflower Oil", img: "sunflower-oil.jpg" }
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("checkoutForm").addEventListener("submit", function() {
         const phone = document.querySelector('input[name="contact"]').value;
         document.getElementById("redirectInput").value =
-            `https://www.ayurafoods.in/success.html?orderId=${orderID}&phone=${encodeURIComponent(phone)}`;
+            `https://https://www.ayurafoods.in/success.html?orderId=${orderID}&phone=${encodeURIComponent(phone)}`;
     });
 });
 </script>
